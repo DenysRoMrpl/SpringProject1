@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-<header th:insert="blocks/header :: header"></header>
-
-    <h1>Homepage</h1>
-
-
+    <div class="wrapper">
+    <header class="container" th:insert="blocks/header :: header"></header>
+    <div class="hero container">
+        <div class="hero--info">
+            <h2>Here you can control your spending</h2>
+            <h1>you can monitor your accounts to understand how much you spend, on what</h1>
+            <button class="btn">Get details</button>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
